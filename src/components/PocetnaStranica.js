@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import axios from 'axios'
+import Gradovi from './Gradovi';
 
 function PocetnaStranica() {
 
@@ -16,7 +17,7 @@ function PocetnaStranica() {
 
     return (
         <div className="ps-div">
-
+            <Gradovi gradovi={gradoviBaza} />
         </div>
     );
 }
