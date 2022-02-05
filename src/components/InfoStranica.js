@@ -14,7 +14,6 @@ function InfoStranica() {
 
     console.log(gradoviBaza)
 
-
     function gradInfo(id) {
         for (let i = 0; i < gradoviBaza.length; i++) {
             if (gradoviBaza[i].id === id) {
@@ -26,6 +25,7 @@ function InfoStranica() {
             }
         }
     }
+
 
 
     return (

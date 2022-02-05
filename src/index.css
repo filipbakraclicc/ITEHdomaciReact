@@ -28,7 +28,8 @@ code {
 
 .btns {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .jedan-grad {

@@ -11,7 +11,6 @@ function App() {
         <Routes>
           <Route path="/" element={<PocetnaStranica />} />
           <Route path="/info" element={<InfoStranica />} />
-
         </Routes>
       </Router >
     </div>
