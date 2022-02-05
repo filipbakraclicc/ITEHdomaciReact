@@ -12,7 +12,8 @@ code {
     monospace;
 }
 
-.gradovi {
+.gradovi,
+.infogradovi {
   width: 1200px;
   margin-left: 370px;
   margin-top: 50px;
@@ -23,4 +24,13 @@ code {
 
 .jedan-grad {
   margin-bottom: 15px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jedan-grad {
+  margin-top: 50px;
 }
